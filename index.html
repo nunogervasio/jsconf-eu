@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JSConf EU</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+      integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Baloo+Chettan|Concert+One|Fredoka+One|Paytone+One"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/custom.css" />
+  </head>
+
+  <body id="home" data-spy="scroll" data-target=".navbar" data-offset="100">
+    <!-- navbar -->
+    <!-- NOTE: creating the navbar outside of the container so it spans the whole width of browser window -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+      <div class="container">
+        <a
+          class="navbar-brand order-1 mr-0"
+          href="https://2019.jsconf.eu/"
+          target="_blank"
+          >Link to Official JSConf EU Site</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="#home"
+              >Home<span class="sr-only">(current)</span></a
+            >
+            <a class="nav-item nav-link" href="#about">About</a>
+            <a class="nav-item nav-link" href="#speakers">Speakers</a>
+            <a class="nav-item nav-link" href="#schedule">Schedule</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- /navbar -->
+
+    <!-- jumbotron -->
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container text-sm-center pt-5">
+        <h1 class="display-2">JSConf EU</h1>
+        <p class="lead">A One-day Conferece About All Things JavaScript</p>
+
+        <div class="btn-group mt-4" role="group" aria-label="Callout buttons">
+          <button
+            type="button"
+            class="btn btn-primary btn-lg"
+            data-toggle="modal"
+            data-target="#register"
+          >
+            Register Now
+          </button>
+          <a class="btn btn-light btn-lg" href="#speakers">See Speakers</a>
+        </div>
+      </div>
+    </div>
+    <!-- /jumbotron -->
+
+    <div class="container pt-4">
+      <!-- about -->
+      <div class="row">
+        <div class="col-lg order-lg-2">
+          <h3 id="about" lass="mb-4">About JSConf EU</h3>
+          <img
+            class="mb-4 img-fluid rounded d-none d-sm-block"
+            src="img/pdx.jpg"
+            alt="Portland"
+          />
+          <p>
+            JSConf EU is the labour-of-love conference for the JavaScript
+            community in Europe.
+          </p>
+          <p>
+            Explore the future of JavaScript with a lineup of industry
+            professionals. Discover new techniques to advance your career as a
+            web developer.
+          </p>
+        </div>
+        <div class="col-lg order-lg-1">
+          <h3 class="mb-4">Expert Speakers</h3>
+          <p>
+            Our expert speaker lineup was just announced, so don't wait too long
+            before grabbing your tickets!
+          </p>
+          <p>
+            Want to meet the international JavaScript community and share skills
+            with some of the world's top experts, hackers, and makers? Be the
+            first to know what to expect for the future of JavaScript.
+          </p>
+          <p>
+            Full Stack Conf is committed to being inclusive and welcoming for
+            everyone. We look forward to another intensive day of learning and
+            sharing.
+          </p>
+        </div>
+        <div class="col-lg order-lg-3">
+          <h3 class="mb-4">What You'll Learn</h3>
+          <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action">
+              <strong>MongoDB</strong>: NoSQL database</a
+            >
+            <a href="#" class="list-group-item list-group-item-action">
+              <strong>Express</strong>: Framework for Node</a
+            >
+            <a href="#" class="list-group-item list-group-item-action">
+              <strong>React</strong>: JavaScript library</a
+            >
+            <a href="#" class="list-group-item list-group-item-action">
+              <strong>Node.js</strong>: JavaScript environment</a
+            >
+            <a href="#" class="list-group-item list-group-item-action">
+              <strong>ES2015</strong>: Latest version of JavaScript</a
+            >
+            <a href="#" class="list-group-item list-group-item-action">
+              <strong>Babel</strong>: JavaScript compiler</a
+            >
+          </div>
+        </div>
+      </div>
+      <!--/about-->
+
+      <!-- speakers -->
+      <h1 id="speakers" class="display-4 text-center my-5 text-muted">
+        Speakers
+      </h1>
+
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-3">
+            <img
+              class="card-img-top"
+              src="img/manu.jpg"
+              alt="Manu Martinez-Almeida"
+            />
+            <div class="card-body">
+              <h4 class="card-title">Manu Martinez-Almeida</h4>
+              <p class="card-text">
+                We all know and love framework-like features such as hot module
+                replacement, reactive properties, templating, CSS-in-JS,
+                lazy-loaded bundling, etc. Stencil is a new approach, a
+                build-time abstraction with framework-level productivity, that
+                generates hand-optimized components using future-proof web APIs.
+                We’ll discuss the architecture of Stencil and the innovations a
+                compiler can introduce to your apps and design systems!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-3">
+            <img
+              class="card-img-top"
+              src="img/marley.png"
+              alt="Marley Rafson"
+            />
+            <div class="card-body">
+              <h4 class="card-title">Marley Rafson</h4>
+              <p class="card-text">
+                Augmented reality is already making its way into everyday
+                browsers! This talk will dive into what that might mean for the
+                traditional web developer, and why developing immersive
+                experiences makes so much sense on the web, even in the face of
+                native alternatives. We will cover topics like off-the-shelf web
+                technologies, performance, and privacy all in the context of
+                augmented reality.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-3">
+            <img class="card-img-top" src="img/paulo.jpg" alt="Paulo Lopes" />
+            <div class="card-body">
+              <h4 class="card-title">Paulo Lopes</h4>
+              <p class="card-text">
+                This presentation is about server performance, which means that
+                no time in the world would be enough to cover it all. Hopefully,
+                I can share with you the top #10 things I’ve learned while
+                putting JavaScript on the top of the server side benchmarks. You
+                will learn about runtimes and engines, how some are more capable
+                than others, and sometimes the obvious choice is not always the
+                right one… This talk is about thinking outside of the box, being
+                creative and don’t take anything for granted. We will debunk
+                myths about native code vs script or RAM usage, it’s going to be
+                fast! I promise!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-3">
+            <img class="card-img-top" src="img/una.jpg" alt="Una Kravets" />
+            <div class="card-body">
+              <h4 class="card-title">Una Kravets</h4>
+              <p class="card-text">
+                It’s almost here! Houdini — the future of CSS! This spec allows
+                developers to write web worklets with JavaScript syntax and
+                access the CSS Object Model for the very first time. Everything
+                will change! In this talk, we’ll will walk through some of the
+                visual magic we can create by using Houdini and its various
+                upcoming browser APIs, and go through a live demo of how we can
+                get started with implementation. Learn about how to use Houdini
+                and what it means for the future of web application styling.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-3">
+            <img
+              class="card-img-top"
+              src="img/jess.jpeg"
+              alt="Jessica Jordan"
+            />
+            <div class="card-body">
+              <h4 class="card-title">Jessica Jordan</h4>
+              <p class="card-text">
+                Remember loving to read comics on a Sunday afternoon when you
+                were a kid? Maybe you don’t. In the past, traditional print
+                comics have made it impossible for blind and visually-impaired
+                readers to experience their heroes’ adventures first-hand. Today
+                an increasing number of initiatives like comic book stores for
+                the blind aim to overcome this challenge. What if I told you
+                that the web platform empowers us to even create comics for
+                literally everyone? Alongside a demo application, you see how
+                accessibility best practices enable you to craft an immersive
+                webcomic experience that is not only engaging for the sighted
+                but accessible for everyone.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-3">
+            <img class="card-img-top" src="img/joe.jpg" alt="Joe Sepi" />
+            <div class="card-body">
+              <h4 class="card-title">Joe Sepi</h4>
+              <p class="card-text">
+                Currently only ‘fs’ and ‘dns’ have an experimental promise api
+                in Node core. People LOL at node.js core modules for still using
+                the callback pattern. I could launch into a bunch of puns here
+                but instead I’ll just say the current status is sad but fixable.
+                Where are we? What do we need to do? How can you help?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /speakers -->
+
+      <!-- schedule -->
+      <h1 id="schedule" class="display-4 text-center my-5 text-muted">
+        Schedule
+      </h1>
+
+      <ul class="list-group">
+        <li class="list-group-item">
+          <div class="d-flex justify-content-between">
+            <h5 class="mb-1">Keynote: Internet of Things</h5>
+            <span class="badge badge-pill badge-warning p-2">9:00am</span>
+          </div>
+          <p class="mb-1">Manu Martinez-Almeida</p>
+        </li>
+        <li class="list-group-item">
+          <div class="d-flex justify-content-between">
+            <h5 class="mb-1">React Basics</h5>
+            <span class="badge badge-pill badge-warning p-2">10:00am</span>
+          </div>
+          <p class="mb-1">Marley Rafson</p>
+        </li>
+        <li class="list-group-item">
+          <div class="d-flex justify-content-between">
+            <h5 class="mb-1">Hey, Mongo!</h5>
+            <span class="badge badge-pill badge-warning p-2">11:00am</span>
+          </div>
+          <p class="mb-1">Paulo Lopes</p>
+        </li>
+        <li class="list-group-item list-group-item-success">
+          <div class="d-flex justify-content-between">
+            <h5 class="mb-1">Lunch</h5>
+            <span class="badge badge-pill badge-warning p-2">12:00pm</span>
+          </div>
+          <p class="mb-1">Free pizza for everyone!</p>
+        </li>
+        <li class="list-group-item">
+          <div class="d-flex justify-content-between">
+            <h5 class="mb-1">Introducing ES2015</h5>
+            <span class="badge badge-pill badge-warning p-2">1:00pm</span>
+          </div>
+          <p class="mb-1">Una Kravets</p>
+        </li>
+        <li class="list-group-item">
+          <div class="d-flex justify-content-between">
+            <h5 class="mb-1">Getting Started With Redux</h5>
+            <span class="badge badge-pill badge-warning p-2">2:00pm</span>
+          </div>
+          <p class="mb-1">Jessica Jordan</p>
+        </li>
+        <li class="list-group-item">
+          <div class="d-flex justify-content-between">
+            <h5 class="mb-1">What's Babel?</h5>
+            <span class="badge badge-pill badge-warning p-2">3:00pm</span>
+          </div>
+          <p class="mb-1">Joe Sepi</p>
+        </li>
+      </ul>
+      <!-- /schedule -->
+
+      <!-- callout button -->
+      <button
+        type="button"
+        class="btn btn-outline-warning btn-lg d-block mx-auto my-5"
+        data-toggle="modal"
+        data-target="#register"
+      >
+        Don't Miss Out, Register Now
+      </button>
+      <!-- /callout button -->
+
+      <!-- signup form -->
+      <hr />
+      <div class="row py-4 text-muted">
+        <div class="col-md col-xl-5">
+          <p>
+            <strong>Talks at JSConf EU</strong>
+          </p>
+          <p>
+            New and upcoming JavaScript features, React, Vue, and Angular,
+            Node.js, Web performance, and Progressive Web Apps.
+          </p>
+        </div>
+        <div class="col-md col-xl-5 ml-auto">
+          <p>
+            <strong>Stay up-to-date on Full Stack Conf</strong>
+          </p>
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Email" />
+            <span class="input-group-btn">
+              <button class="btn btn-primary" type="button">Sign up</button>
+            </span>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <!-- /signup form -->
+
+      <!-- footer -->
+      <div class="row py-3">
+        <div class="col-md-7">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Community</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tracks</a>
+            </li>
+            <li class="nav-item">
+              <div class="btn-group dropup">
+                <button type="button" class="btn btn-outline-secondary">
+                  Other Confs
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  <span class="sr-only">Toggle Dropdown</span>
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">CSS Conf</a>
+                  <a class="dropdown-item" href="#">Python Conf</a>
+                  <a class="dropdown-item" href="#">Java Conf</a>
+                  <a class="dropdown-item" href="#">Kotlin Conf</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md text-md-right">
+          Unofficial JSConf EU Site
+        </div>
+      </div>
+      <!-- /footer -->
+    </div>
+    <!--/container-->
+
+    <!--=====================================
+     FORM MODAL
+    =====================================-->
+
+    <div
+      class="modal fade"
+      id="register"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="register form"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header bg-warning">
+            <h5 class="modal-title" id="exampleModalLabel">
+              Register for Full Stack Conf
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <!-- registration form -->
+            <form>
+              <div
+                class="alert alert-warning alert-dismissible fade show"
+                role="alert"
+              >
+                <strong>Hurry!</strong> Early bird registration ends in two
+                days.
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="alert"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <h5 class="mb-4">Basic Info</h5>
+              <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" />
+              </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" />
+              </div>
+              <div class="form-group">
+                <label for="role">Job Role:</label>
+                <select class="custom-select form-control" id="role">
+                  <option value="full stack js developer"
+                    >Full Stack JavaScript Developer</option
+                  >
+                  <option value="front end developer"
+                    >Front End Developer</option
+                  >
+                  <option value="back end developer">Back End Developer</option>
+                  <option value="designer">Designer</option>
+                  <option value="student">Student</option>
+                </select>
+              </div>
+
+              <hr class="my-4" />
+              <h5 class="mb-4">Which Topics Intrest You Most?</h5>
+
+              <div class="form-check">
+                <label class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" />
+                  <span class="custom-control-indicator"></span>
+                  <span class="custom-control-description"
+                    >JavaScript Frameworks</span
+                  >
+                </label>
+              </div>
+              <div class="form-check">
+                <label class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" />
+                  <span class="custom-control-indicator"></span>
+                  <span class="custom-control-description"
+                    >JavaScript Libraries</span
+                  >
+                </label>
+              </div>
+              <div class="form-check">
+                <label class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" />
+                  <span class="custom-control-indicator"></span>
+                  <span class="custom-control-description">Node.js</span>
+                </label>
+              </div>
+              <div class="form-check">
+                <label class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" />
+                  <span class="custom-control-indicator"></span>
+                  <span class="custom-control-description">Build Tools</span>
+                </label>
+              </div>
+              <div class="form-check">
+                <label class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" />
+                  <span class="custom-control-indicator"></span>
+                  <span class="custom-control-description">ES2015</span>
+                </label>
+              </div>
+
+              <hr class="mb-4" />
+              <h5 class="mb-4">Payment Info</h5>
+
+              <div class="form-row">
+                <div class="col-lg-6 form-group">
+                  <label for="cc-num">Card Number:</label>
+                  <input class="form-control" id="cc-num" type="text" />
+                </div>
+
+                <div class="col-lg form-group">
+                  <label for="zip">Zip Code:</label>
+                  <input class="form-control" id="zip" type="text" />
+                </div>
+
+                <div class="col-lg form-group">
+                  <label for="cvv">CVV:</label>
+                  <input class="form-control" id="cvv" type="text" />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <label class="col-lg-12">Experation Date:</label>
+                <div class="form-group col-lg-8">
+                  <select class="custom-select form-control" id="exp-month">
+                    <option value="1">1 - January</option>
+                    <option value="2">2 - February</option>
+                    <option value="3">3 - March</option>
+                    <option value="4">4 - April</option>
+                    <option value="5">5 - May</option>
+                    <option value="6">6 - June</option>
+                    <option value="7">7 - July</option>
+                    <option value="8">8 - August</option>
+                    <option value="9">9 - September</option>
+                    <option value="10">10 - October</option>
+                    <option value="11">11 - November</option>
+                    <option value="12">12 - December</option>
+                  </select>
+                </div>
+                <div class="form-group col-lg">
+                  <select class="custom-select form-control" id="exp-year">
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                  </select>
+                </div>
+              </div>
+              <hr class="mb-4" />
+              <button type="submit" class="btn btn-primary btn-lg">
+                Register
+              </button>
+            </form>
+            <!-- /registration form -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+      integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
+      integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+
+<!-- img classes:
+rounded => ./utilities/borders/#border-radius
+img-fluid => ./content/images/#responsive-images
+mb-4 => ./utilities/spacing/#notation
+d-none => ./utilities/display/
+NOTE: hides img on all brakpoints
+d-sm-block => ./utilities/display/
+NOTE: shows the img in all breakpoint in sm and up
+-->
+
+<!-- h1 classes:
+my-5 => ./utilities/spacing/#horizontal-centering 
+NOTE: y - for classes that set both *-top and *-bottom "my == margin top and bottom"
+text-muted => ./content/typography/#customizing-headings
+display-4 => ./content/typography/#display-headings
+-->
+
+<!-- column div classes:
+col-lg => ./layout/grid/#grid-options
+NOTE: lg xl breakpoints will keep the 3 columns while xs sm md change to single column
+order-lg-1 => ./layout/grid/#order-classes
+NOTE: on lg xl breakpoints the column will follow the order class 1,2,3 etc.
+      on sx sm md breakpoints clumn will display by default
+      [also useful => ./layout/grid/#offsetting-columns]
+-->
+
+<!--  in signup form
+      we have 2 divs at col-xl-5 which means that we have a extra 2 columns of space
+      that are now not centered. In order to make the right side flush with the page
+      we use ml-auto [margin left auto] => ./utilities/spacing/#notation
+-->
+
+<!--  .nav =>  ./components/navbar/#nav
+      .target="_blank" this makes the link open in a new tab
+      .order-1 makes flush to rightside(dont understand why it goes to the right hand side and not the left???)
+      .navbar-dark bg-primary => ./components/navbar/#color-schemes
+      .mr-0 removes the margin in the "presented by treehouse"
+      .fixed-top makes the nav always stay at the top of the page(note will lose the top of page)
+-->
+
+<!--  .btn-lg makes the button large
+      .d-block sets button displsy value to block (dont know what that means???)
+      .mx-auto center aligns the button
+      -->
+<!--  on footer 
+        ./components/dropdowns/#split-button
+        NOTE: used on 3rd li in footer <div class="btn-group"> 
+        .dropup makes the arrow in the dropdown button point up
+ -->
+
+<!--  schedule 
+      .d-flex justify-content-between => ./utilities/flex/#justify-content
+      NOTE: [justify-content-between] will align the first element to the far left of the row 
+            and align the last element to the right of the row
+      .badge => ./components/badge/#pill-badges
+      .p-2 => utilities/spacing/#notation
+      [NOTE: IF YOU DONT PROVIDE A SIDE FOR THE PADDING IT WILL APPLY IT TO ALL SIDES]
+      list-group-item-success => ./components/list-group/#contextual-classes
+    -->
+<!-- .card => ./components/card/#image-caps -->
+
+<!--  modal window
+      .modal fade => ./components/modal/#live-demo
+      both jumbotron "register now" and "dont miss out now" buttons
+      must contain  the data-toggle="modal" data-target="#register" attributes
+      -->
+
+<!--  body tag data-spy="scroll" data-target=".navbar"
+      => components/scrollspy/#usage
+      NOTE: this highlites the nav bar bassed on where you are on the page
+            any nav bar title must have a related #id tag. [About has an id="about" tag]
+      .data-offset => ./components/scrollspy/#options
+       -->
+
+<!--  .form-group => ./forms/#form-groups
+      .custom-select => ./components/forms/#select-menu
+      * .form-check => ./components/forms/#checkboxes-and-radios-1[ERROR] *
+      NOTE: I USED THE CODE FROM THE PROJECT FILES BECAUSE BS4 HAS A BUG WITH CHECKBOX AND MODAL
+      .alert => ./components/alerts/#dismissing
+      .form-row => components/forms/#form-row
+      NOTE: this removes the gutters and create a more compact layout
+ -->
+<!-- 
+  .input-group => ./components/input-group/#button-addons
+ -->
